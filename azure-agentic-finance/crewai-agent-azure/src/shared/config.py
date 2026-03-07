@@ -58,7 +58,7 @@ class Settings(BaseSettings):
         None, 
         description="Connection string for Azure PostgreSQL Database."
     )
-    azure_blob_storage_connection_string: Op tional[str] = Field(
+    azure_blob_storage_connection_string: Optional[str] = Field(
         None, 
         description="Connection string for Azure Blob Storage."
     )
